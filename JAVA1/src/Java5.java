@@ -36,5 +36,7 @@ public class Java5 {
         st.addStudent(sts2);
         st.addStudent(sts3);
         st.showStudent();
+        
+        Scanner scanner = new Scanner(System.in)
     }
 }
