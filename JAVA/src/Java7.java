@@ -67,5 +67,14 @@ public class Java7 {
         }
         System.out.println("消费金额："+money);
         System.out.println("成功换购："+goods);
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入你的手机号：");
+        String sh = scanner.next();
+        if(sh.length() == 11 ){
+            System.out.println("号码正确，请等待验证码");
+        }
+        else
+            System.out.println("你输入的号码错误");
     }
 }
