@@ -37,6 +37,16 @@ public class Java5 {
         st.addStudent(sts3);
         st.showStudent();
         
-        Scanner scanner = new Scanner(System.in)
+        Scanner scanner1 = new Scanner(System.in);
+        int a = scanner.nextInt();
+        for(int i =1;i<a;i++){
+            for(int j =1;j<a-i-1;j++){
+                System.out.print(" ");
+            }
+            for(int k =0;k<a+1;k++){
+                System.out.print("*");
+            }
+            System.out.println( );
+        }
     }
 }
