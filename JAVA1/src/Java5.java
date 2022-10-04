@@ -38,7 +38,7 @@ public class Java5 {
         st.showStudent();
         
         Scanner scanner1 = new Scanner(System.in);
-        int a = scanner.nextInt();
+        int a = scanner1.nextInt();
         for(int i =1;i<a;i++){
             for(int j =1;j<a-i-1;j++){
                 System.out.print(" ");
@@ -47,6 +47,12 @@ public class Java5 {
                 System.out.print("*");
             }
             System.out.println( );
+        }
+        
+        
+        int[] a={1,2,3,3,1,3,12};
+        for(int i = 1;i<10;i++){
+            System.out.println(a[i]);
         }
     }
 }
