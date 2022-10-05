@@ -54,5 +54,13 @@ public class Java5 {
         for(int i = 1;i<10;i++){
             System.out.println(a[i]);
         }
+        
+        int sum=0;
+        for(int i = 0 ;i<100;i+=8){
+            for(int j =0;j<100;j-=i){
+                sum = i + j;
+                System.out.println();
+            }
+        }
     }
 }
