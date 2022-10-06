@@ -62,5 +62,16 @@ public class Java5 {
                 System.out.println();
             }
         }
+        
+        Scanner scanner3 = new Scanner(System.in);
+        String ha = scanner.next();
+        int i=0;
+        while(ha=="诺克萨斯"){
+            System.out.print("你好！我们是英雄联盟。");
+            do{
+                Suystem.out.print("德玛西亚万岁");
+                i++;
+            }while(i<10);
+        }
     }
 }
