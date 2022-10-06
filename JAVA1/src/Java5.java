@@ -65,6 +65,7 @@ public class Java5 {
         
         Scanner scanner3 = new Scanner(System.in);
         String ha = scanner.next();
+        System.out,println("请输入你的口令:");
         int i=0;
         while(ha=="诺克萨斯"){
             System.out.print("你好！我们是英雄联盟。");
