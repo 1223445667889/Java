@@ -64,8 +64,8 @@ public class Java5 {
         }
         
         Scanner scanner3 = new Scanner(System.in);
-        String ha = scanner.next();
         System.out,println("请输入你的口令:");
+        String ha = scanner.next();
         int i=0;
         while(ha=="诺克萨斯"){
             System.out.print("你好！我们是英雄联盟。");
@@ -73,6 +73,45 @@ public class Java5 {
                 Suystem.out.print("德玛西亚万岁");
                 i++;
             }while(i<10);
+        }
+        
+        
+        Scanner scanner4= new Scanner(System.in);
+        System.out.println("请输入你的序号：");
+        int hao = scanner4.Intnext();
+        int i =1;
+        while(i!=0){
+            switch(hao!=0){
+                case 1:
+                    i+=1;
+                    System.out.println("你好！我是你的智能服务主机。");
+                    break;
+                case 2:
+                    i+=4;
+                    System.out.println("请问你需要帮助吗？");
+                    break;
+                case 4:
+                    i++;
+                    System.out.println("需要餐纸吗？");
+                case 5:
+                    i++;
+                    System.out.println("需要点餐吗？");
+                case 6:
+                    i++;
+                    System.out.println("需要围裙吗？");
+                    break;
+                case 7:
+                    i+=5;
+                    Systm.out.println("需要付款吗？");
+                    break;
+                case 8:
+                    System.out.println("欢迎下次光临！");
+                    if(i>=10){
+                        hao=0;
+                        i=0;
+                    }
+                    break;
+            }
         }
     }
 }
