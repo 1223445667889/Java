@@ -113,5 +113,13 @@ public class Java5 {
                     break;
             }
         }
+        
+        int a= 10;
+        double b=5;
+        public int sum(int a,double d){
+            int sumd = c+d;
+            System.out.println(sumd);
+        }
+        System.out.println("值得和为："+sum());
     }
 }
