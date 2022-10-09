@@ -121,5 +121,20 @@ public class Java5 {
             System.out.println(sumd);
         }
         System.out.println("值得和为："+sum());
+        
+        Scanner scanner5 = new Scanner(System.in);
+        int num = Scanner.nextInt();
+        int[] arr={3,2,1,4,6,5,7,10,9,8};
+        for(int i=0;i<=num;i++){
+            for(int j=0;j<=num-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    int s = 0;
+                    s=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=s；
+                }
+            }
+        }
+        System.out.println(arr);
     }
 }
