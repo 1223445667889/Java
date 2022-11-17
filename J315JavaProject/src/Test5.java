@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * 
- * @author 郑俊杰
+ * @author 朕
  *
  */
 //定义类Text5  
