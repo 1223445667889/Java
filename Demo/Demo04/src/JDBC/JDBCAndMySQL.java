@@ -11,7 +11,7 @@ public class JDBCAndMySQL {
 
         //url 统一资源定位符 协议 IP地址 端口 资源名(网页)
         //                协议 主机名 端口 数据库名(数据库)
-        String url="jdbc:mysql57://127.0.0.1:3306/day01_test01_market";
+        String url="jdbc:mysql://127.0.0.1:3306/day01_test01_market";
         String user = "root";
         String password = "3453543";
 
