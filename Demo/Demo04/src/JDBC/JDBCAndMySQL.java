@@ -13,7 +13,7 @@ public class JDBCAndMySQL {
         //                协议 主机名 端口 数据库名(数据库)
         String url="jdbc:mysql57://127.0.0.1:3306/day01_test01_market";
         String user = "root";
-        String password = "123456789";
+        String password = "3453543";
 
         Connection con = DriverManager.getConnection(url,user,password);
         System.out.println("连接成功，创建数据库的连接对象 = "+ con);
